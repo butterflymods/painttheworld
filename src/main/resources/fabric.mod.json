@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "license": "MIT",
+  "id": "painttheworld",
+  "version": "${version}",
+
+  "name": "Paint The World",
+  "description": "Description",
+  "icon": "pack.png",
+
+  "authors": [
+    "Butterfly Mods"
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://butterflymods.github.io/painttheworld",
+    "sources": "https://github.com/butterflymods/painttheworld"
+  },
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.butterflymods.painttheworld.PaintTheWorld"
+    ],
+
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "painttheworld.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.0",
+    "fabric": ">=0.28.0",
+    "minecraft": ">=1.16.2"
+  }
+}
